@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.hame.materialdesign.MainActivity">
+
+    <Button
+        android:text="Manipular Texto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnCallText"
+        android:onClick="callOpenText" />
+    <Button
+        android:text="Image Option"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnCallCheckBx"
+        android:onClick="callOpenCheckBx" />
+    <Button
+        android:text="Selected Option"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnCallSelOption"
+        android:onClick="callSelOption" />
+
+    <Button
+        android:text="List Option"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnCallListOption"
+        android:onClick="callSelListOption" />
+
+
+</LinearLayout>

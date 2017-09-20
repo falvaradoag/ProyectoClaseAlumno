@@ -15,4 +15,6 @@
         <item>Maletin</item>
         <item>Calculadora</item>
     </string-array>
+    <string name="title_activity_recycler">RecyclerActivity</string>
+    <string name="title_activity_tarea_recycler">TareaRecyclerActivity</string>
 </resources>

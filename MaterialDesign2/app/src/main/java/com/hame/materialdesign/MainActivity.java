@@ -29,5 +29,14 @@ public class MainActivity extends AppCompatActivity {
     {
         startActivity(new Intent(this,ListViewActivity.class));
     }
+    public void recyclerOption(View view)
+    {
+        startActivity(new Intent(this,RecyclerActivity.class));
+    }
+
+    public void recyclerOptionTarea(View view)
+    {
+        startActivity(new Intent(this,TareaRecyclerActivity.class));
+    }
 
 }

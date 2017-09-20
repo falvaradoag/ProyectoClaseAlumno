@@ -18,7 +18,15 @@
         <activity android:name=".TextActivity" />
         <activity android:name=".ImageOPTActivity" />
         <activity android:name=".SelectedOPTActivity" />
-        <activity android:name=".ListViewActivity"></activity>
+        <activity android:name=".ListViewActivity" />
+        <activity
+            android:name=".RecyclerActivity"
+            android:label="@string/title_activity_recycler"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TareaRecyclerActivity"
+            android:label="@string/title_activity_tarea_recycler"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

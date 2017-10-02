@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">Módulo de Ventas</string>
+    <string name="title_activity_main_login">HAME</string>
+    <string name="title_activity_login_activityfa">Iniciar Sesión</string>
+
+
+    <!-- Strings related to login -->
+    <string name="prompt_cli">Cliente</string>
+    <string name="prompt_dir">Dirección</string>
+    <string name="prompt_nit">Nit</string>
+    <string name="prompt_tel">Teléfono</string>
+    <string name="prompt_con">Contacto</string>
+    <string name="prompt_usr">Usuario</string>
+    <string name="prompt_password">Contraseña</string>
+    <string name="action_sign_in">Login</string>
+    <string name="prompt_idEquipo">Idenficador del Equipo</string>
+    <string name="prompt_dirWS">Dirección Web Service</string>
+    <string name="action_sinc">Sincronización</string>
+
+    <string name="action_insert">Grabar</string>
+    <string name="action_sign_in_short">Registrarse</string>
+    <string name="error_invalid_usr">El usuario es incorrecto</string>
+    <string name="error_invalid_password">Su contraseña es demasiado corta</string>
+    <string name="error_empty_password">Debe ingresar su contraseña</string>
+    <string name="error_incorrect_password">Su contraseña es incorrecta</string>
+    <string name="error_field_required">Ingrese su usuario</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <string name="error_field_required_cli">Campo requiere el nombre de cliente</string>
+    <string name="error_field_required_dir">Campo requiere la dirección</string>
+    <string name="error_field_required_nit">Campo requiere el Nit</string>
+    <string name="error_field_required_tel">Campo requiere el Teléfono </string>
+    <string name="error_field_required_cont">Campo requiere el contacto</string>
+
+    <string name="error_field_required_Equipo">Ingrese la identificación del Equipo</string>
+    <string name="error_field_required_WS">Ingrese la dirección del Web Service</string>
+
+
+    <string name="title_activity_login">Iniciar Sesión</string>
+    <string name="title_activity_main">HAME</string>
+    <string name="title_Listactivity_main">Listado de Clientes</string>
+    <string name="title_activity_list">ListActivity</string>
+    <string name="title_activity_ingreso_cliente">Ingreso de Cliente</string>
+    <string name="title_activity_images">Subir Imagen</string>
+    <string name="title_activity_tarea">Tarea</string>
+    <string name="title_activity_sincronizar">Sincronización de Datos</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_email2">Email</string>
+    <string name="error_invalid_email">Ingrese una dirección de correo valida</string>
+    <string name="error_field_requerid_email">Campo requiere el correo</string>
+    <string name="title_activity_maps">Map</string>
+
+    <string name="action_settings1">Settings</string>
+    <string name="capture_button">Capture</string>
+    <string name="capture_desc">Capture image holder</string>
+
+    <string name="chx_atm">Cajero</string>
+    <string name="cbx_bag">Bolsa</string>
+    <string name="cbx_basket">Canasta</string>
+    <string name="cbx_box">Caja</string>
+    <string name="cbx_briefcase">Maletin</string>
+    <string name="cbx_calculator">Calculadora</string>
+
+</resources>

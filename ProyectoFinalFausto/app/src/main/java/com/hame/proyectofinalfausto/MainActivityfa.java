@@ -20,9 +20,9 @@ public class MainActivityfa extends AppCompatActivity {
         //setSupportActionBar(toolbar);
 
         //Retardo de Imagen
-        //myHandler = new Handler();
-        //myHandler.postDelayed(rRunnable, 5_000);
-        PantallaInicial();
+        myHandler = new Handler();
+        myHandler.postDelayed(rRunnable, 5_000);
+        //PantallaInicial();
     }
     public Runnable rRunnable = new Runnable(){
 
@@ -33,8 +33,8 @@ public class MainActivityfa extends AppCompatActivity {
     };
 
     public void PantallaInicial(){
-        //Intent intent = new Intent(this, LoginActivity.class);
-        Intent intent = new Intent(this, ImagesRecyclerActivity.class);
+        Intent intent = new Intent(this, LoginActivity.class);
+        //Intent intent = new Intent(this, ImagesRecyclerActivity.class);
         startActivity(intent);
         finish();
     }

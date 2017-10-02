@@ -145,7 +145,7 @@ public class IngresoClienteActivity extends AppCompatActivity implements OnMapRe
             // Show a progress spinner, and kick off a background task to
             // perform the user login attempt.
             showProgress(true);
-            Intent intent = new Intent(this, ImagesActivity.class);
+            Intent intent = new Intent(this, ImagesRecyclerActivity.class);
             startActivity(intent);
             finish();
         }

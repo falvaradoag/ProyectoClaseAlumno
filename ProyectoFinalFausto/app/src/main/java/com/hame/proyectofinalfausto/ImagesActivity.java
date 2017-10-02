@@ -78,6 +78,7 @@ public class ImagesActivity extends AppCompatActivity {
     }
 
 
+
     private void initComponents()
     {
         AlertDialog.Builder builder = new AlertDialog.Builder(this);

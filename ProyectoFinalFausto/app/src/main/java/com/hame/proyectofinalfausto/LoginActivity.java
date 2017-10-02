@@ -119,12 +119,12 @@ public class LoginActivity extends AppCompatActivity {
 
     private boolean isUsrValid(String usr) {
         //TODO: Replace this with your own logic
-        return usr.contains("f");
+        return usr.contains("sys");
     }
 
     private boolean isPasswordValid(String password) {
         //TODO: Replace this with your own logic
-        return password.contains("1");
+        return password.contains("2017");
 //      return password.length() > 4;
     }
 

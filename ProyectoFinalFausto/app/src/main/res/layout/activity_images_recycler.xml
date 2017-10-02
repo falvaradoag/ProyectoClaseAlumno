@@ -18,31 +18,37 @@
 
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/photo_button"
-        android:layout_width="68dp"
-        android:layout_height="wrap_content"
+        android:layout_width="70dp"
+        android:layout_height="match_parent"
         android:layout_gravity="bottom|end"
         android:layout_margin="@dimen/fab_margin"
         app:backgroundTint="?attr/actionModeSplitBackground"
         app:srcCompat="@drawable/camera" />
 
     <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
         android:id="@+id/captured_photo"
-        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
         android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
         android:contentDescription="@string/capture_desc"
-        android:layout_alignParentStart="true" />
+
+        android:padding="16dp" />
 
     <Button
         android:id="@+id/grabar_datos"
         style="?android:textAppearanceSmall"
-        android:layout_width="200dp"
+        android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="450dp"
         android:onClick="ShowMessage"
-        android:text="Guardar"
-        android:layout_centerHorizontal="true"
+        android:text="@string/action_insert"
+        android:layout_centerHorizontal="false"
         android:textStyle="bold" />
+
+
+
+
 
 </android.support.design.widget.CoordinatorLayout>
